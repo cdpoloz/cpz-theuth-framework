@@ -1,0 +1,12 @@
+# -------------------------------------
+# English
+# Ignore local IDE settings, caches, and generated build output.
+# -------------------------------------
+# Español
+# Ignora la configuración local del IDE, los cachés y los archivos de build generados.
+# -------------------------------------
+.idea/
+.vscode/
+.DS_Store
+.cache/
+build/
