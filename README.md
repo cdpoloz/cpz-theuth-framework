@@ -57,8 +57,9 @@ These works cover parts of the design space at different levels: idea, method, m
 - `methodology/`: principles, knowledge model, usage profiles, lifecycle, conversation capture, retrieval, correction, and privacy/retention.
 - `templates/`: reusable starter formats.
 - `examples/`: demonstration cases, fictional or explicitly authorized, including retrieval evaluation cases.
+- `docs/`: release scope and the relationship between the framework and a reference implementation.
 
-This repository defines the framework. Canonical records belong in a separate implementation. See [the principles](methodology/principles.md), [scope and usage profiles](methodology/scope-and-modes.md), the [knowledge model](methodology/knowledge-model.md), the [conversation source guide](methodology/conversation-sources.md), the [retrieval workflow](methodology/retrieval.md), the [correction and revision workflow](methodology/correction-and-revision.md), and the [privacy, retention, and removal guide](methodology/privacy-retention-and-removal.md).
+This repository defines the framework. Canonical records belong in a separate implementation. See [the principles](methodology/principles.md), [scope and usage profiles](methodology/scope-and-modes.md), [the v0.1.0 release scope](docs/release-scope.md), [the reference implementation note](docs/reference-implementation.md), the [knowledge model](methodology/knowledge-model.md), the [conversation source guide](methodology/conversation-sources.md), the [retrieval workflow](methodology/retrieval.md), the [correction and revision workflow](methodology/correction-and-revision.md), and the [privacy, retention, and removal guide](methodology/privacy-retention-and-removal.md).
 
 ## Getting started
 
@@ -67,7 +68,7 @@ This repository defines the framework. Canonical records belong in a separate im
 3. Adapt the templates and recommendations to your context; you do not need to use all of them.
 4. Test retrieval with a real question and check that you can trace the answer to the records and sources that support it. You can start with the [first evaluation case](examples/retrieval-tests/01-theuth-current-framework-status.md).
 
-This v0.1 proposal is a starting point, not a closed standard. It will evolve through examples and real-world use. The first planned implementation is personal and will be developed separately, after testing the model.
+The v0.1.0 scope is described in [docs/release-scope.md](docs/release-scope.md). This is a starting point, not a closed standard. The first planned reference implementation will apply Theuth in the TheuthMT personal orientation and will be maintained separately; see [docs/reference-implementation.md](docs/reference-implementation.md).
 
 ## Author
 
@@ -139,8 +140,9 @@ Estos trabajos cubren partes del espacio de diseño en distintos niveles: idea, 
 - `methodology/`: principios, modelo de conocimiento, perfiles de uso, ciclo de vida, captura de conversaciones, `retrieval`, corrección y privacidad/retención.
 - `templates/`: formatos iniciales reutilizables.
 - `examples/`: casos de demostración, ficticios o expresamente autorizados, incluidos casos de evaluación de `retrieval`.
+- `docs/`: alcance de la versión y relación entre el framework y una implementación de referencia.
 
-Este repositorio define el framework. Los registros canónicos pertenecen a una implementación separada. Consulta [los principios](methodology/principles.md), [el alcance y los perfiles de uso](methodology/scope-and-modes.md), el [modelo de conocimiento](methodology/knowledge-model.md), la guía de [captura de conversaciones](methodology/conversation-sources.md), el [workflow de retrieval](methodology/retrieval.md), el [workflow de correction and revision](methodology/correction-and-revision.md) y la guía de [privacy, retention and removal](methodology/privacy-retention-and-removal.md).
+Este repositorio define el framework. Los registros canónicos pertenecen a una implementación separada. Consulta [los principios](methodology/principles.md), [el alcance y los perfiles de uso](methodology/scope-and-modes.md), [el alcance de v0.1.0](docs/release-scope.md), [la nota sobre implementación de referencia](docs/reference-implementation.md), el [modelo de conocimiento](methodology/knowledge-model.md), la guía de [captura de conversaciones](methodology/conversation-sources.md), el [workflow de retrieval](methodology/retrieval.md), el [workflow de correction and revision](methodology/correction-and-revision.md) y la guía de [privacy, retention and removal](methodology/privacy-retention-and-removal.md).
 
 ## Cómo empezar
 
@@ -149,7 +151,7 @@ Este repositorio define el framework. Los registros canónicos pertenecen a una 
 3. Adapta las plantillas y recomendaciones a tu contexto; no es necesario utilizarlas todas.
 4. Prueba `retrieval` con una pregunta real y comprueba que puedes rastrear la respuesta hasta los registros y `sources` que la respaldan. Puedes empezar con el [primer caso de evaluación](examples/retrieval-tests/01-theuth-current-framework-status.md).
 
-Esta propuesta v0.1 es una base de trabajo, no un estándar cerrado. Evolucionará mediante ejemplos y uso real. La primera implementación prevista es personal y se desarrollará por separado, después de probar el modelo.
+El alcance de v0.1.0 está descrito en [docs/release-scope.md](docs/release-scope.md). Es una base de trabajo, no un estándar cerrado. La primera implementación de referencia prevista aplicará Theuth en la orientación personal TheuthMT y se mantendrá por separado; consulta [docs/reference-implementation.md](docs/reference-implementation.md).
 
 ## Author
 
