@@ -12,7 +12,7 @@ This case checks whether an implementation can explain a decision, trace its rea
 
 ## Reference corpus
 
-Run the case against the repository at commit \`TO_BE_PINNED_AFTER_BASELINE_COMMIT\`. This ref pins the corpus for repeating the query if \`main\` changes and includes the anonymized version of the source record.
+Run the case against the repository at commit \`69ef30e1bb985b34ba87035fceb2d07858f141cf\`. This ref pins the corpus for repeating the query if \`main\` changes and includes the anonymized version of the source record.
 
 Entry point and records to follow:
 
@@ -79,7 +79,7 @@ Este caso comprueba si una implementación puede explicar una decisión, rastrea
 
 ## Corpus de referencia
 
-Ejecutar el caso contra el repositorio en el commit `TO_BE_PINNED_AFTER_BASELINE_COMMIT`. Este ref fija el corpus para repetir la consulta aunque `main` cambie e incluye la versión anonimizada de la ficha de fuente.
+Ejecutar el caso contra el repositorio en el commit `69ef30e1bb985b34ba87035fceb2d07858f141cf`. Este ref fija el corpus para repetir la consulta aunque `main` cambie e incluye la versión anonimizada de la ficha de fuente.
 
 Punto de entrada y registros a seguir:
 
