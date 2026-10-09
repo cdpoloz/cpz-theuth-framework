@@ -33,6 +33,14 @@ Adapt the level of detail to each record’s risk and purpose:
 - Classification and access restrictions when required by the source or implementation.
 - Purpose, review condition, or retention when relevant.
 
+## External source identifiers and immutable originals
+
+When a source arrives with an externally assigned filename or code (for example, from a supplier), preserve that identifier and the original file without renaming or embedding internal metadata. An implementation may maintain a separate, access-controlled correspondence registry linking its own stable source ID to the original filename/code and an unambiguous location or provider reference. A filename alone may not be unique.
+
+For stronger verification, record a content hash (such as SHA-256), the hash algorithm, and, when useful, the observed version or capture date. The hash identifies a particular byte-level version, not a document's enduring identity: if the provider replaces the file under the same name, retain the internal ID as appropriate while recording the new version and hash rather than silently overwriting the association.
+
+The registry can be a table, manifest, or database according to implementation needs. Keep its access permissions aligned with those of the sources; do not reproduce restricted document contents in the registry. This approach is format-independent and applies to both TheuthMT and TheuthMTC. It separates the source's external identity from the knowledge base's internal identity without altering the evidence.
+
 ## Sources and derived material
 
 An original conversation or document is a **source**. A note, summary, answer, or synthesis created from that material is **derived** and should retain a link to the source and, when possible, its specific passage or turn. The derivative may aid retrieval and guide work, but does not replace the source or constitute independent evidence of its contents.
@@ -136,6 +144,14 @@ Adapta el detalle al riesgo y al propósito de cada registro:
 - Incertidumbres o limitaciones que afecten su interpretación.
 - Clasificación y restricciones de acceso cuando la fuente o la implementación las requieran.
 - Propósito, condición de revisión o retención cuando sea pertinente.
+
+## Identificadores de fuentes externas y originales inalterados
+
+Cuando una fuente llega con un nombre de archivo o código asignado externamente (por ejemplo, por un proveedor), conserva ese identificador y el archivo original sin renombrarlo ni insertar metadatos internos. Una implementación puede mantener un registro de correspondencias independiente y con acceso controlado que vincule su ID estable de fuente con el nombre/código original y una ubicación o referencia al proveedor inequívoca. El nombre de archivo por sí solo puede no ser único.
+
+Para reforzar la verificación, registra un hash de contenido (como SHA-256), el algoritmo utilizado y, cuando resulte útil, la versión observada o la fecha de captura. El hash identifica una versión concreta a nivel de bytes, no la identidad persistente del documento: si el proveedor sustituye el archivo manteniendo el mismo nombre, conserva el ID interno cuando corresponda y registra la nueva versión y su hash, sin sobrescribir silenciosamente la asociación.
+
+El registro puede adoptar la forma de tabla, manifiesto o base de datos según las necesidades de la implementación. Sus permisos deben ser coherentes con los de las fuentes; evita reproducir contenidos restringidos en él. Este enfoque es independiente del formato y se aplica tanto a TheuthMT como a TheuthMTC. Separa la identidad externa de la fuente de su identidad interna en la base de conocimiento sin alterar la evidencia.
 
 ## Fuentes y material derivado
 
