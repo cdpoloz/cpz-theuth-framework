@@ -63,6 +63,7 @@ This repository defines the framework. Canonical records belong in a separate im
 
 ## Getting started
 
+1. To begin with an AI tool you already have, follow the [AI-assisted start guide](docs/ai-assisted-start-guide.md).
 1. Read [the principles](methodology/principles.md), [scope and usage profiles](methodology/scope-and-modes.md), and the [knowledge model](methodology/knowledge-model.md).
 2. If your goal is personal memory, follow the [personal instance setup guide](methodology/personal-instance-setup.md).
 3. Adapt the templates and recommendations to your context; you do not need to use all of them.
@@ -146,6 +147,7 @@ Este repositorio define el framework. Los registros canónicos pertenecen a una 
 
 ## Cómo empezar
 
+1. Para empezar con una herramienta de IA que ya tengas, sigue la [guía de inicio con IA](docs/ai-assisted-start-guide.md).
 1. Lee [los principios](methodology/principles.md), [el alcance y los perfiles de uso](methodology/scope-and-modes.md) y el [modelo de conocimiento](methodology/knowledge-model.md).
 2. Si tu objetivo es la memoria personal, sigue la [guía de configuración de una personal instance](methodology/personal-instance-setup.md).
 3. Adapta las plantillas y recomendaciones a tu contexto; no es necesario utilizarlas todas.
