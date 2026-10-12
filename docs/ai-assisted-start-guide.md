@@ -13,7 +13,7 @@ The guide applies to personal and shared working-memory orientations. In shared 
 - An AI tool that can accept text. File upload is useful but not required.
 - A separate folder or repository for your implementation. Keep canonical knowledge records outside this framework repository.
 - One source you are allowed to process: a work document, conversation export, or another record.
-- The relevant starter files from [templates/](../templates/), especially [source.md](../templates/source.md), [project.md](../templates/project.md), [claim.md](../templates/claim.md), and [decision.md](../templates/decision.md).
+- The relevant starter files from [templates/](../templates/), especially [source.md](../templates/source.md), [project.md](../templates/project.md), [claim.md](../templates/claim.md), and [decision.md](../templates/decision.md). Provide the applicable template to the AI as an attachment or pasted text; a relative link in this guide does not grant the tool access to the repository.
 - A way to preserve the original source unchanged and save reviewed Markdown files.
 
 A simple personal project may use a structure such as:
@@ -53,7 +53,7 @@ Process one source at a time. Provide its original filename or stable location, 
 
 Use this prompt:
 
-> Analyze the source I provide and prepare a draft based on [templates/source.md](../templates/source.md).
+> Analyze the source I provide and prepare a draft using the source template I provide. If I do not provide it, ask me to attach or paste it before drafting.
 >
 > Preserve the original source; do not rewrite it. Use only information available in the source or metadata I explicitly provide. Record provenance, coverage, limitations, and locators. For a conversation, state whether the capture is complete, partial, or reconstructed, and identify missing turns, attachments, or tool activity if known.
 >
@@ -78,7 +78,7 @@ After reviewing source records, provide the AI with the current `project.md` and
 
 Use this prompt:
 
-> Using only the records provided, prepare proposed updates for this project. Follow [templates/project.md](../templates/project.md); create a separate draft only for a claim or decision that is useful as an independently maintained record, following [templates/claim.md](../templates/claim.md) or [templates/decision.md](../templates/decision.md).
+> Using only the records provided, prepare proposed updates for this project. Use the project template I provide. Create a separate draft only for a claim or decision that is useful as an independently maintained record, using the corresponding claim or decision template I provide. If a required template is missing, ask me for it before drafting that record.
 >
 > Link each proposed statement to its supporting record and locator. Label it as an explicit source statement, attributed claim, inference, decision, or synthesis. A source record or AI summary is not automatically independent evidence.
 >
@@ -121,7 +121,7 @@ La guía sirve para las orientaciones de memoria de trabajo personal y compartid
 - Una herramienta de IA que acepte texto. Poder adjuntar archivos es útil, pero no imprescindible.
 - Una carpeta o repositorio separado para tu implementación. Mantén los registros canónicos de conocimiento fuera de este repositorio del framework.
 - Una fuente que tengas autorización para procesar: un documento de trabajo, una exportación de conversación u otro registro.
-- Los archivos iniciales pertinentes de [templates/](../templates/), en especial [source.md](../templates/source.md), [project.md](../templates/project.md), [claim.md](../templates/claim.md) y [decision.md](../templates/decision.md).
+- Los archivos iniciales pertinentes de [templates/](../templates/), en especial [source.md](../templates/source.md), [project.md](../templates/project.md), [claim.md](../templates/claim.md) y [decision.md](../templates/decision.md). Proporciona a la IA la plantilla correspondiente como archivo adjunto o texto pegado; un enlace relativo de esta guía no permite que la herramienta acceda al repositorio.
 - Una forma de conservar la fuente original sin modificarla y guardar los archivos Markdown revisados.
 
 Un proyecto personal sencillo podría utilizar una estructura como esta:
@@ -161,7 +161,7 @@ Procesa una fuente cada vez. Indica su nombre original o ubicación estable, la 
 
 Utiliza este prompt:
 
-> Analiza la fuente que te proporciono y prepara un borrador siguiendo [templates/source.md](../templates/source.md).
+> Analiza la fuente que te proporciono y prepara un borrador utilizando la plantilla de fuente que te proporcione. Si no te la proporciono, pídeme que la adjunte o pegue antes de redactar.
 >
 > Conserva intacta la fuente original; no la reescribas. Utiliza solo la información de la fuente o los metadatos que yo indique explícitamente. Registra la procedencia, cobertura, limitaciones y localizadores. Para una conversación, indica si la captura es completa, parcial o reconstruida, y señala los turnos, adjuntos o actividad de herramientas que falten, si se conocen.
 >
@@ -186,7 +186,7 @@ Después de revisar los registros de fuente, proporciona a la IA el `project.md`
 
 Utiliza este prompt:
 
-> A partir únicamente de los registros proporcionados, prepara cambios propuestos para este proyecto. Sigue [templates/project.md](../templates/project.md); crea un borrador separado solo para un claim o una decisión que sea útil mantener como registro independiente, siguiendo [templates/claim.md](../templates/claim.md) o [templates/decision.md](../templates/decision.md).
+> A partir únicamente de los registros proporcionados, prepara cambios propuestos para este proyecto. Utiliza la plantilla de proyecto que te proporcione. Crea un borrador separado solo para un claim o una decisión que sea útil mantener como registro independiente, utilizando la plantilla correspondiente de claim o decisión que te proporcione. Si falta una plantilla necesaria, pídemela antes de redactar ese registro.
 >
 > Vincula cada afirmación propuesta con el registro y localizador que la respaldan. Indica si es una afirmación explícita de una fuente, un claim atribuido, una inferencia, una decisión o una síntesis. Un registro de fuente o un resumen de IA no son automáticamente evidencia independiente.
 >
