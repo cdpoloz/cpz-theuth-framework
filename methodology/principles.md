@@ -19,6 +19,7 @@ An initial proposal for designing a Theuth knowledge base; it should be tested a
 11. **Use portable formats.** Prefer plain text and predictable names. Git shows changes but does not explain their meaning on its own.
 12. **Minimize and protect.** Save only what is necessary. Keep credentials and especially sensitive data out of the ordinary repository.
 13. **Design around real queries.** Test whether the system can answer what is known, why, since when, and what has changed.
+14. **Check fitness for application.** When retrieved knowledge is used to recommend, decide, or act in a new context, assess whether its scope, assumptions, currency, and limitations fit that use. Perform proportionate independent checks when consequences justify them. A well-sourced historical claim is not automatically a valid current instruction. See the [contextual application proposal](contextual-application-proposal.md).
 
 -------------------------------------
 
@@ -39,5 +40,6 @@ Propuesta inicial para diseñar una base Theuth; debe contrastarse con casos rea
 11. **Usar formatos portables.** Prioriza texto plano y nombres previsibles. Git muestra cambios, pero no explica por sí solo su significado.
 12. **Minimizar y proteger.** Guarda solo lo necesario. Mantén credenciales y datos especialmente sensibles fuera del repositorio ordinario.
 13. **Diseñar desde consultas reales.** Prueba si el sistema responde qué se sabe, por qué, desde cuándo y qué ha cambiado.
+14. **Comprobar la idoneidad para su aplicación.** Cuando se use conocimiento recuperado para recomendar, decidir o actuar en un nuevo contexto, evaluar si su alcance, supuestos, vigencia y limitaciones encajan con ese uso. Realizar comprobaciones independientes proporcionales cuando las consecuencias lo justifiquen. Una afirmación histórica bien documentada no es automáticamente una instrucción vigente. Véase la [propuesta de aplicación contextual](contextual-application-proposal.md).
 
 -------------------------------------
