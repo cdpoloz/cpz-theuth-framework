@@ -30,6 +30,7 @@ Adapt the level of detail to each record’s risk and purpose:
 - Epistemic class: observation, source, inference, or decision.
 - Relationships to projects, topics, claims, and prior decisions.
 - Uncertainty or limitations affecting interpretation.
+- Where reuse matters: tested conditions, applicability limits, known failures, and supporting verification; do not equate a reusable artifact with proof that it will work elsewhere.
 - Classification and access restrictions when required by the source or implementation.
 - Purpose, review condition, or retention when relevant.
 
@@ -142,6 +143,7 @@ Adapta el detalle al riesgo y al propósito de cada registro:
 - Clase epistémica: observación, fuente, inferencia o decisión.
 - Relaciones con proyectos, temas, afirmaciones y decisiones previas.
 - Incertidumbres o limitaciones que afecten su interpretación.
+- Cuando importe la reutilización: condiciones comprobadas, límites de aplicación, fallos conocidos y evidencia de verificación; conservar un artefacto reutilizable no demuestra que funcione en otro contexto.
 - Clasificación y restricciones de acceso cuando la fuente o la implementación las requieran.
 - Propósito, condición de revisión o retención cuando sea pertinente.
 
