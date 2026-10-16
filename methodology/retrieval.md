@@ -14,6 +14,10 @@ This workflow guides how a Theuth implementation answers queries using persisten
 4. **Trace provenance.** Open the relevant decisions, sources, and specific locators. Check that the cited passage supports the claim and distinguish an original source from a synthesis or derived answer. A synthesis can guide the search but is not independent evidence.
 5. **Answer with explicit limits.** Separate supported information, inference, and uncertainty. State what could not be consulted or verified. If the evidence is insufficient or not relevant enough, say so clearly instead of turning a weak match into a confirmed answer.
 
+## Contextual application after retrieval (proposed extension)
+
+The stages above establish what the records support; they do not by themselves authorize applying a finding in a different context. When a query requests a recommendation, decision, design, or action, assess the proposed use against the record's scope, assumptions, date, dependencies, constraints, and known failure conditions. Determine whether new evidence or a domain-specific test is needed in proportion to the consequences. Distinguish **verified provenance**, **contextual fit**, and **tested outcome**; do not claim the last two merely because the first holds. If checks cannot be performed, make the limits explicit and request human review before consequential actions. Ordinary factual or historical answers do not require gratuitous tests. This is a methodological proposal for evaluation, not a mandatory automated gate. See [contextual application proposal](contextual-application-proposal.md).
+
 ## What to show the person
 
 During retrieval, briefly communicate progress through the relevant stages, for example:
@@ -51,6 +55,10 @@ Este flujo orienta cómo una implementación de Theuth responde consultas a part
 3. **Comprobar estado y vigencia.** Revisa fechas, estados y relaciones como “reemplaza a” o “fue reemplazado por”. Comprueba si el registro está en revisión, disputado o corregido según el [flujo de corrección y revisión](correction-and-revision.md). No trates un registro antiguo como vigente solo porque sea fácil de encontrar. Si hay discrepancias, consérvalas visibles y no elijas una versión en silencio.
 4. **Seguir la procedencia.** Abre las decisiones, fuentes y localizadores concretos pertinentes. Comprueba que el pasaje citado respalda la afirmación y distingue fuente original de síntesis o respuesta derivada. Una síntesis puede guiar la búsqueda, pero no es evidencia independiente.
 5. **Responder con límites explícitos.** Separa lo respaldado, la inferencia y lo incierto. Indica qué no se pudo consultar o verificar. Si la evidencia es insuficiente o poco pertinente, dilo claramente en vez de convertir una coincidencia débil en respuesta confirmada.
+
+## Aplicación contextual posterior a la recuperación (ampliación propuesta)
+
+Las etapas anteriores determinan qué respaldan los registros; no autorizan por sí solas a aplicar un hallazgo en un contexto distinto. Cuando la consulta solicita una recomendación, decisión, diseño o acción, contrasta el uso previsto con el alcance, supuestos, fecha, dependencias, restricciones y condiciones de fallo conocidas del registro. Determina si hacen falta nueva evidencia o pruebas del dominio, en proporción a las consecuencias. Distingue **procedencia verificada**, **adecuación contextual** y **resultado comprobado**; no des por acreditados los dos últimos solo porque se cumpla el primero. Si no puedes realizar las comprobaciones, explica los límites y solicita revisión humana antes de acciones con consecuencias relevantes. Las respuestas históricas o factuales ordinarias no requieren pruebas innecesarias. Es una propuesta metodológica sujeta a evaluación, no una barrera automatizada obligatoria. Véase la [propuesta de aplicación contextual](contextual-application-proposal.md).
 
 ## Qué mostrar a la persona
 
