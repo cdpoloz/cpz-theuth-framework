@@ -30,6 +30,10 @@ Theuth is developed in dialogue with related proposals, but it is not an impleme
 - [Funes](https://github.com/ulyssestenn/funes): a Git-based framework for organizing sources in a linked Markdown library and producing referenced answers and documents.
 - [Personal Knowledge Wiki](https://github.com/ZLHad/personal-knowledge-wiki): an LLM-assisted personal wiki with workflows and skills for Claude Code, inspired by Karpathy’s pattern.
 
+### Agent workflows and practical knowledge reuse
+
+- [VIBE MANUFACTURING IS HERE, by Greg Isenberg](https://x.com/i/article/2106728342569250816) ([Spanish adaptation](https://crearsoftware.com/blog/la-fabricacion-vibe-ya-esta-aqui/)): a practical, commercially oriented guide to agent-assisted product design and fabrication. Its shared files for requirements, manufacturing rules, lessons learned, reusable parts, tests, and build history illustrate operational knowledge reuse. It is related work, not a formal or academically validated knowledge framework, and Theuth does not adopt its manufacturing-specific architecture.
+
 ### Persistent memory for agents
 
 - [Agent Zero Memory](https://arxiv.org/abs/2608.29606): research on agent memory with sources, temporal context, and evidence-linked answers.
@@ -48,6 +52,7 @@ These works cover parts of the design space at different levels: idea, method, m
 - Save context and purpose instead of accumulating information without criteria.
 - Keep records small and linkable.
 - Use progressive retrieval and show how an answer was reached.
+- Before applying retrieved knowledge to a new decision or action, assess contextual fit, limitations, and the need for proportionate verification; a correct citation alone does not prove applicability.
 - Use readable files, portable formats, and version control.
 - Minimize sensitive data and protect privacy.
 - Respect authorization and access restrictions that apply to sources and their derivatives.
@@ -59,7 +64,7 @@ These works cover parts of the design space at different levels: idea, method, m
 - `examples/`: demonstration cases, fictional or explicitly authorized, including retrieval evaluation cases.
 - `docs/`: release scope and the relationship between the framework and a reference implementation.
 
-This repository defines the framework. Canonical records belong in a separate implementation. See [the principles](methodology/principles.md), [scope and usage profiles](methodology/scope-and-modes.md), [the v0.1.0 release scope](docs/release-scope.md), [the v0.1.0 release notes](docs/release-notes-v0.1.0.md), [the reference implementation note](docs/reference-implementation.md), the [knowledge model](methodology/knowledge-model.md), the [conversation source guide](methodology/conversation-sources.md), the [retrieval workflow](methodology/retrieval.md), the [correction and revision workflow](methodology/correction-and-revision.md), and the [privacy, retention, and removal guide](methodology/privacy-retention-and-removal.md).
+This repository defines the framework. Canonical records belong in a separate implementation. See [the contextual application proposal](methodology/contextual-application-proposal.md) and [the principles](methodology/principles.md), [scope and usage profiles](methodology/scope-and-modes.md), [the v0.1.0 release scope](docs/release-scope.md), [the v0.1.0 release notes](docs/release-notes-v0.1.0.md), [the reference implementation note](docs/reference-implementation.md), the [knowledge model](methodology/knowledge-model.md), the [conversation source guide](methodology/conversation-sources.md), the [retrieval workflow](methodology/retrieval.md), the [correction and revision workflow](methodology/correction-and-revision.md), and the [privacy, retention, and removal guide](methodology/privacy-retention-and-removal.md).
 
 ## Getting started
 
@@ -114,6 +119,10 @@ Theuth se desarrolla en diálogo con propuestas cercanas, pero no es una impleme
 - [Funes](https://github.com/ulyssestenn/funes): framework basado en Git para organizar `sources` en una biblioteca Markdown enlazada y producir respuestas y documentos con referencias.
 - [Personal Knowledge Wiki](https://github.com/ZLHad/personal-knowledge-wiki): wiki personal asistida por LLM, con workflows y skills para Claude Code, inspirada en el patrón de Karpathy.
 
+### Flujos con agentes y reutilización práctica del conocimiento
+
+- [VIBE MANUFACTURING IS HERE, de Greg Isenberg](https://x.com/i/article/2106728342569250816) ([adaptación en español](https://crearsoftware.com/blog/la-fabricacion-vibe-ya-esta-aqui/)): guía práctica de orientación comercial sobre diseño y fabricación asistidos por agentes. Sus archivos de requisitos, reglas de fabricación, lecciones, piezas reutilizables, pruebas e historial ilustran la reutilización operativa del conocimiento. Es trabajo relacionado, no un framework formal ni validado académicamente, y Theuth no adopta su arquitectura específica de fabricación.
+
 ### Memoria persistente para agentes
 
 - [Agent Zero Memory](https://arxiv.org/abs/2608.29606): investigación sobre memoria de agentes con `sources`, contexto temporal y respuestas vinculadas a evidencia.
@@ -132,6 +141,7 @@ Estos trabajos cubren partes del espacio de diseño en distintos niveles: idea, 
 - Guardar contexto y propósito en lugar de acumular información sin criterio.
 - Mantener los registros pequeños y enlazables.
 - Utilizar `progressive retrieval` y mostrar cómo se llegó a una respuesta.
+- Antes de aplicar conocimiento recuperado a una decisión o acción nueva, evaluar su adecuación contextual, limitaciones y necesidad de verificación proporcional; una cita correcta no demuestra por sí sola su aplicabilidad.
 - Utilizar archivos legibles, formatos portables y control de versiones.
 - Minimizar los datos sensibles y proteger la privacidad.
 - Respetar las autorizaciones y restricciones de acceso aplicables a las `sources` y sus derivados.
@@ -143,7 +153,7 @@ Estos trabajos cubren partes del espacio de diseño en distintos niveles: idea, 
 - `examples/`: casos de demostración, ficticios o expresamente autorizados, incluidos casos de evaluación de `retrieval`.
 - `docs/`: alcance de la versión y relación entre el framework y una implementación de referencia.
 
-Este repositorio define el framework. Los registros canónicos pertenecen a una implementación separada. Consulta [los principios](methodology/principles.md), [el alcance y los perfiles de uso](methodology/scope-and-modes.md), [el alcance de v0.1.0](docs/release-scope.md), [las notas de versión de v0.1.0](docs/release-notes-v0.1.0.md), [la nota sobre implementación de referencia](docs/reference-implementation.md), el [modelo de conocimiento](methodology/knowledge-model.md), la guía de [captura de conversaciones](methodology/conversation-sources.md), el [workflow de retrieval](methodology/retrieval.md), el [workflow de correction and revision](methodology/correction-and-revision.md) y la guía de [privacy, retention and removal](methodology/privacy-retention-and-removal.md).
+Este repositorio define el framework. Los registros canónicos pertenecen a una implementación separada. Consulta [la propuesta de aplicación contextual](methodology/contextual-application-proposal.md) y [los principios](methodology/principles.md), [el alcance y los perfiles de uso](methodology/scope-and-modes.md), [el alcance de v0.1.0](docs/release-scope.md), [las notas de versión de v0.1.0](docs/release-notes-v0.1.0.md), [la nota sobre implementación de referencia](docs/reference-implementation.md), el [modelo de conocimiento](methodology/knowledge-model.md), la guía de [captura de conversaciones](methodology/conversation-sources.md), el [workflow de retrieval](methodology/retrieval.md), el [workflow de correction and revision](methodology/correction-and-revision.md) y la guía de [privacy, retention and removal](methodology/privacy-retention-and-removal.md).
 
 ## Cómo empezar
 
